@@ -7,7 +7,7 @@ import g6 from "@/assets/g6.jpg";
 
 export const images = { g1, g2, g3, g4, g5, g6 };
 
-export const FEST_DATE = "2026-11-12T10:00:00+05:30";
+export const FEST_DATE = "2026-10-30T10:00:00+05:30";
 
 export type Category =
   | "Technical"

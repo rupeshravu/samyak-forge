@@ -68,7 +68,7 @@ export function Footer() {
           <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
             <li>hello@samyak.fest</li>
             <li>+91 90000 00000</li>
-            <li>Main Campus Grounds</li>
+            <li>KL University</li>
           </ul>
         </div>
       </div>
