@@ -57,7 +57,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          12–14 November · Main Campus Grounds
+          30–31 October · KL University
         </motion.p>
 
         <motion.h1
