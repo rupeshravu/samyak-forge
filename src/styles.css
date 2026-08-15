@@ -37,33 +37,34 @@
 
 :root {
   --radius: 0.25rem;
-  --background: oklch(0.13 0.018 275);
-  --foreground: oklch(0.95 0.008 80);
-  --card: oklch(0.17 0.02 275);
-  --card-foreground: oklch(0.95 0.008 80);
-  --popover: oklch(0.15 0.02 275);
-  --popover-foreground: oklch(0.95 0.008 80);
-  --primary: oklch(0.58 0.23 27);
-  --primary-foreground: oklch(0.98 0.01 80);
-  --secondary: oklch(0.22 0.025 275);
-  --secondary-foreground: oklch(0.95 0.008 80);
-  --muted: oklch(0.2 0.02 275);
-  --muted-foreground: oklch(0.68 0.02 270);
-  --accent: oklch(0.7 0.19 48);
-  --accent-foreground: oklch(0.14 0.02 275);
+  --background: oklch(0.13 0.03 250);
+  --foreground: oklch(0.96 0.01 230);
+  --card: oklch(0.17 0.035 250);
+  --card-foreground: oklch(0.96 0.01 230);
+  --popover: oklch(0.15 0.035 250);
+  --popover-foreground: oklch(0.96 0.01 230);
+  --primary: oklch(0.7 0.19 235);
+  --primary-foreground: oklch(0.14 0.03 250);
+  --secondary: oklch(0.22 0.04 250);
+  --secondary-foreground: oklch(0.96 0.01 230);
+  --muted: oklch(0.2 0.035 250);
+  --muted-foreground: oklch(0.7 0.03 240);
+  --accent: oklch(0.82 0.15 200);
+  --accent-foreground: oklch(0.14 0.03 250);
   --destructive: oklch(0.6 0.24 25);
   --destructive-foreground: oklch(0.98 0.01 80);
-  --border: oklch(0.98 0.01 80 / 12%);
-  --input: oklch(0.98 0.01 80 / 16%);
-  --ring: oklch(0.58 0.23 27);
-  --ember: oklch(0.74 0.18 55);
-  --crimson: oklch(0.5 0.22 22);
-  --bone: oklch(0.95 0.02 80);
+  --border: oklch(0.9 0.05 230 / 14%);
+  --input: oklch(0.9 0.05 230 / 18%);
+  --ring: oklch(0.7 0.19 235);
+  --ember: oklch(0.85 0.15 205);
+  --crimson: oklch(0.55 0.2 260);
+  --bone: oklch(0.96 0.02 230);
 
   --gradient-ember: linear-gradient(120deg, var(--crimson), var(--primary) 45%, var(--ember));
-  --glow-red: 0 0 0 1px oklch(0.58 0.23 27 / 40%), 0 0 32px -6px oklch(0.58 0.23 27 / 60%);
-  --glow-soft: 0 0 80px -20px oklch(0.58 0.23 27 / 55%);
+  --glow-red: 0 0 0 1px oklch(0.7 0.19 235 / 45%), 0 0 32px -6px oklch(0.7 0.19 235 / 70%);
+  --glow-soft: 0 0 80px -20px oklch(0.7 0.19 235 / 60%);
 }
+
 
 @layer base {
   * {
@@ -101,11 +102,12 @@
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: oklch(0.11 0.018 275);
+    background: oklch(0.11 0.03 250);
   }
   ::-webkit-scrollbar-thumb {
-    background: oklch(0.4 0.14 27);
+    background: oklch(0.55 0.15 235);
   }
+
 }
 
 @utility grain {
