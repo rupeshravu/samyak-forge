@@ -39,7 +39,7 @@ function Hero() {
     <section ref={ref} className="relative min-h-[100svh] overflow-hidden">
       <motion.img
         src={heroImg}
-        alt="SAMYAK main stage lit by neon blue beams above a packed crowd"
+        alt="SAMYAK main stage lit by warm crimson beams above a packed crowd"
         width={1920}
         height={1088}
         style={{ y }}
@@ -151,7 +151,7 @@ function About() {
             <div className="group overflow-hidden">
               <img
                 src={images.g1}
-                alt="Crowd under neon blue stage lasers at a past SAMYAK edition"
+                alt="Crowd under warm crimson stage lasers at a past SAMYAK edition"
                 loading="lazy"
                 width={1024}
                 height={1280}
@@ -163,7 +163,7 @@ function About() {
             <div className="group overflow-hidden">
               <img
                 src={images.g3}
-                alt="Dancer performing in neon blue spotlights"
+                alt="Dancer performing in warm crimson spotlights"
                 loading="lazy"
                 width={1024}
                 height={1280}
