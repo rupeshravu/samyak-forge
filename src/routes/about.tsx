@@ -69,7 +69,7 @@ function AboutPage() {
           <Reveal delay={0.15}>
             <img
               src={images.g4}
-              alt="Workshop hall at SAMYAK filled with students under neon blue light"
+              alt="Workshop hall at SAMYAK filled with students under warm crimson light"
               loading="lazy"
               width={1280}
               height={860}
