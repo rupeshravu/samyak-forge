@@ -30,17 +30,20 @@ export function Footer() {
             The ultimate campus experience. Three days of technology, culture and spectacle.
           </p>
           <div className="mt-6 flex gap-4 text-muted-foreground">
-            <a href="#" aria-label="Instagram" className="transition-colors hover:text-primary">
+            <a href="https://www.facebook.com/klef.samyak/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition-colors hover:text-primary">
+              <Facebook size={18} />
+            </a>
+            <a href="https://www.instagram.com/kl.samyak/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-colors hover:text-primary">
               <Instagram size={18} />
             </a>
-            <a href="#" aria-label="LinkedIn" className="transition-colors hover:text-primary">
-              <Linkedin size={18} />
-            </a>
-            <a href="#" aria-label="YouTube" className="transition-colors hover:text-primary">
+            <a href="https://www.youtube.com/@klsamyak2890" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="transition-colors hover:text-primary">
               <Youtube size={18} />
             </a>
-            <a href="#" aria-label="Twitter" className="transition-colors hover:text-primary">
+            <a href="https://x.com/KlSamyak" target="_blank" rel="noopener noreferrer" aria-label="X" className="transition-colors hover:text-primary">
               <Twitter size={18} />
+            </a>
+            <a href="https://in.linkedin.com/school/samyak-kluniversity/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="transition-colors hover:text-primary">
+              <Linkedin size={18} />
             </a>
           </div>
         </div>
