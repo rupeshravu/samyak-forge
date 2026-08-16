@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Linkedin, Youtube, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Youtube, Twitter, Facebook } from "lucide-react";
 
 const cols = [
   {
